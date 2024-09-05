@@ -167,7 +167,7 @@ class PhotographerCardTemplate {
 
   createLinkLogo() {
     const lienLogo = document.createElement('a');
-    lienLogo.setAttribute('href', '/');
+    lienLogo.setAttribute('href', `index.html`);
     lienLogo.setAttribute('title', "Lien vers la page d'acceuil");
     const header = document.querySelector('header');
     const img = document.querySelector('.logo');
