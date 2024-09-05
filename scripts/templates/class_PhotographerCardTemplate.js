@@ -5,7 +5,7 @@ class PhotographerCardTemplate {
 
   photographerCard() {
     const { name, portrait, city, country, tagline, price, id } = this.data;
-    const picture = `assets/photographers/Photographers_ID_photos/${portrait}`;
+    const picture = `assets/photographers/Photographers_ID_Photos/${portrait}`;
     const article = document.createElement('article');
     article.setAttribute('role', 'region');
 
@@ -33,7 +33,7 @@ class PhotographerCardTemplate {
   photographerProfileCard() {
     const { name, portrait, city, country, tagline, price } = this.data;
     document.title = `Fisheye - ${name}`;
-    const picture = `assets/photographers/Photographers_ID_photos/${portrait}`;
+    const picture = `assets/photographers/Photographers_ID_Photos/${portrait}`;
 
     const divFiche = document.querySelector('.photograph-header');
     divFiche.setAttribute(
