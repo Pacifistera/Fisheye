@@ -1,3 +1,5 @@
+/* global PhotographerCardTemplate, Photographers, ModalGalleryLightbox, ContactForm */
+
 async function displayData(infoUser) {
   const profilUser = new PhotographerCardTemplate(infoUser);
   profilUser.photographerProfileCard();

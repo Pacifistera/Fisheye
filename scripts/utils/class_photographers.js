@@ -4,9 +4,7 @@ class Photographers {
   // initialiser la fonction ci-dessous avant d'utiliser les methodes
 
   async initPhotographers() {
-    const reponse = await fetch(
-      'http://127.0.0.1:5500/data/photographers.json'
-    );
+    const reponse = await fetch('/data/photographers.json');
     const photographes = await reponse.json();
     this.dataPhotographers = photographes;
   }
